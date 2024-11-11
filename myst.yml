@@ -1,0 +1,23 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 7f4425d6-d197-4904-88a4-81cd23fa671d
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/myeongseok-kwon/blog
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  exclude:
+    - venv/**
+    - draft/**
+    - data/**
+    - images/**
+site:
+  template: book-theme
+  actions:
+    - title: about me
+      url: /resume
+  options:
+    favicon: images/favicon.ico
+    logo: images/site_logo.png
