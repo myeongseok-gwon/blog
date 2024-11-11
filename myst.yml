@@ -15,9 +15,6 @@ project:
     - images/**
 site:
   template: book-theme
-  actions:
-    - title: about me
-      url: /resume
   options:
     favicon: images/favicon.ico
     logo: images/site_logo.png
