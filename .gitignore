@@ -3,3 +3,5 @@ _build
 venv
 draft
 data
+for-build
+images/images-for-build
