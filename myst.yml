@@ -31,3 +31,20 @@ site:
     favicon: images/favicon.ico
     logo: images/site_logo.png
     analytics_google: G-82VEBRN907
+    # Giscus 댓글 시스템 설정
+    comments: giscus
+    giscus:
+      repo: myeongseok-gwon/blog
+      repo_id: R_kgDONNXfQw
+      category: General
+      # category_id: 임시로 주석 처리
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      input_position: bottom
+      theme: light
+      dark_theme: dark
+      lang: ko
+    # 커스텀 CSS 파일 연결
+    html_extra_path: _static
