@@ -172,3 +172,12 @@ Using the law of iterated expectations once more, the proof is completed as foll
 ```{math}
 = E[Y_1] - E[Y_0] = ATE
 ```
+
+## Example discussion
+<script src="https://utteranc.es/client.js"
+        repo="TeachBooks/manual"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
