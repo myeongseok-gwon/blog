@@ -12,22 +12,23 @@ const giscusTransform = {
     const giscusScript = {
       type: 'html',
       value: `
-        <div class="giscus" style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #e1e4e8;"></div>
-        <script src="https://giscus.app/client.js"
-                data-repo="myeongseok-gwon/blog"
-                data-repo-id="R_kgDONNXfQw"
-                data-category="Announcements"
-                data-category-id="DIC_kwDONNXfQ84Cuhyx"
-                data-mapping="pathname"
-                data-strict="0"
-                data-reactions-enabled="1"
-                data-emit-metadata="0"
-                data-input-position="bottom"
-                data-theme="preferred_color_scheme"
-                data-lang="ko"
-                crossorigin="anonymous"
-                async>
-        </script>
+        <div class="giscus" style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #e1e4e8;">
+          <script src="https://giscus.app/client.js"
+                  data-repo="myeongseok-gwon/blog"
+                  data-repo-id="R_kgDONNXfQw"
+                  data-category="Announcements"
+                  data-category-id="DIC_kwDONNXfQ84Cuhyx"
+                  data-mapping="pathname"
+                  data-strict="0"
+                  data-reactions-enabled="1"
+                  data-emit-metadata="0"
+                  data-input-position="bottom"
+                  data-theme="preferred_color_scheme"
+                  data-lang="ko"
+                  crossorigin="anonymous"
+                  async>
+          </script>
+        </div>
       `
     };
     
