@@ -36,14 +36,14 @@ site:
     giscus:
       repo: myeongseok-gwon/blog
       repo_id: R_kgDONNXfQw
-      category: General
-      # category_id: 임시로 주석 처리
+      category: Announcements
+      category_id: DIC_kwDONNXfQ84Cuhyx
       mapping: pathname
       strict: 0
       reactions_enabled: 1
       emit_metadata: 0
       input_position: bottom
-      theme: light
+      theme: preferred_color_scheme
       dark_theme: dark
       lang: ko
     # 커스텀 CSS 파일 연결
