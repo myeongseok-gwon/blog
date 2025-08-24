@@ -13,6 +13,9 @@ project:
     - data/**
     - images/**
     - for-build/**
+  # Giscus 댓글 시스템 플러그인 등록
+  plugins:
+    - giscus.mjs
 site:
   template: book-theme
   nav:
