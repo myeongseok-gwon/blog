@@ -13,14 +13,11 @@ project:
     - data/**
     - images/**
     - for-build/**
-  # Giscus 댓글 시스템 플러그인 등록
-  plugins:
-    - giscus.mjs
 site:
   template: book-theme
   nav:
     - title: CV
-      url: https://drive.google.com/file/d/1Qwxees8GKs_VipRUlhuOtBkrtZe3RGBT/view
+      url: https://drive.google.com/file/d/1pNwsy3UEH40XwO6CWYVw26JJlMWlEgjG/view
     - title: Portfolio
       url: https://myeongseok-gwon.github.io/portfolio/
     - title: LinkedIn
@@ -36,18 +33,3 @@ site:
     analytics_google: G-82VEBRN907
     # 커스텀 CSS 파일 연결
     html_extra_path: _static
-    # Giscus 댓글 시스템 설정
-    html_theme_options:
-      giscus:
-        repo: myeongseok-gwon/blog
-        repo_id: R_kgDONNXfQw
-        category: Announcements
-        category_id: DIC_kwDONNXfQ84Cuhyx
-        mapping: pathname
-        strict: 0
-        reactions_enabled: 1
-        emit_metadata: 0
-        input_position: bottom
-        theme: preferred_color_scheme
-        dark_theme: dark
-        lang: ko
