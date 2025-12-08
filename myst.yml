@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 7f4425d6-d197-4904-88a4-81cd23fa671d
+  id: 7f4425d6-d197-4904-88a4-81cd23fa671e
   github: https://github.com/myeongseok-gwon/blog
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   exclude:
