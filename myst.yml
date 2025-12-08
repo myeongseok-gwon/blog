@@ -2,10 +2,6 @@
 version: 1
 project:
   id: 7f4425d6-d197-4904-88a4-81cd23fa671d
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
   github: https://github.com/myeongseok-gwon/blog
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   exclude:
@@ -31,5 +27,3 @@ site:
     favicon: images/favicon.ico
     logo: images/site_logo.png
     analytics_google: G-82VEBRN907
-    # 커스텀 CSS 파일 연결
-    html_extra_path: _static
